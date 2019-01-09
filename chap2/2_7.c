@@ -3,11 +3,11 @@
 
 int main()
 {
-  int r, v; /*statement first*/
+  int r, v, i; /*statement first*/
 
   printf("Please enter the radius: \n");
   /*scanf("%d\n", r);*/ /*get value from user's input from keyboard*/
-  scanf("%d\n", &r);
+  scanf("%d", &r);
 
   v = (4.0 / 3.0) * r * r * r; /*(4 / 3) is wrong, cause it will throw away the decimals*/
 
