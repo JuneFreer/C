@@ -1,3 +1,4 @@
+/*用辗转相除算法求最大公约数gcd*/
 #include <stdio.h>
 
 int main()
