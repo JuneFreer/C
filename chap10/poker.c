@@ -51,7 +51,7 @@ void read_cards(void)
     printf("Enter a card: ");
     rank_ch = getchar(); /*getchar()表示下一个输入*/
     switch(rank_ch){
-      case '0': exit(EXIT_SUCCESS);
+      case '0': exit(EXIT_SUCCESS); /*当读入的第一个char是0时，程序退出*/
       case '2': rank = 0; break;
       case '3': rank = 1; break;
       case '4': rank = 2; break;
